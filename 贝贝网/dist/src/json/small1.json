@@ -1,0 +1,21 @@
+// 数据抓取，小图展示区
+[{
+	"id":0,
+	"shop":[{
+			"title":"限量999件",
+			"pic":"￥49",
+			"img":"http://b1.hucdn.com/upload/item/1809/26/60704205911196_800x800.jpg!100x100.jpg",
+		},{
+			"title":"限量999件",
+			"pic":"￥16.9",
+			"img":"http://b1.hucdn.com/upload/item/1811/21/69668498862009_800x800.jpg!100x100.jpg",
+		},{
+			"title":"限量999件",
+			"pic":"￥14.9",
+			"img":"http://b1.hucdn.com/upload/item/1810/30/91135528678044_800x800.jpg!100x100.jpg",
+		},{
+			"title":"限量999件",
+			"pic":"￥25.9",
+			"img":"http://b1.hucdn.com/upload/item/1807/21/48302307237978_800x800.jpg!100x100.jpg",
+	}]
+}]

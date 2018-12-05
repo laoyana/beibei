@@ -1,0 +1,52 @@
+/* !商品详情页 */
+
+/*! 商品区 */
+#container{
+	margin-top:20px;
+	.cont_mt{
+		width: 1080px;
+		margin-top:20px;
+		margin:0 auto;
+		position:relative;
+		#deta{
+			font-family:Helvetica,Tahoma,Arial,'Microsoft YaHei','微软雅黑',STXihei,'华文细黑',SimSun,'宋体',Heiti,'黑体',sans-serif;
+			.crumb{
+				position:relative;
+				padding:0 5px 10px;
+				color:#999;
+				a{
+					margin:0 3px;
+					color:#999;
+				}
+				span{
+					margin:0 3px;
+				}
+			}
+			#deta_meta{
+				background:#fff;
+				margin:0 0 20px;
+				overflow:hidden;
+				.side_wrapper{
+					width:500px;
+					height:610px;
+					float:left;
+					background:#fff;
+					.car_wrapper{
+						padding:0 20px;
+						.cont_img{
+							padding:20px 0;
+							a{
+								display:block;
+								border:1px solid #dfdfdf;
+								cursor:crosshair;
+								img{
+									width:458px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
