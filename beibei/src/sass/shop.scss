@@ -1,0 +1,371 @@
+/* !商品详情页 */
+
+/*! 商品区 */
+#container{
+	margin-top:20px;
+	.cont_mt{
+		width: 1080px;
+		margin-top:20px;
+		margin:0 auto;
+		position:relative;
+		#deta{
+			font-family:Helvetica,Tahoma,Arial,'Microsoft YaHei','微软雅黑',STXihei,'华文细黑',SimSun,'宋体',Heiti,'黑体',sans-serif;
+			.crumb{
+				position:relative;
+				padding:0 5px 10px;
+				color:#999;
+				a{
+					margin:0 3px;
+					color:#999;
+				}
+				span{
+					margin:0 3px;
+				}
+			}
+			#deta_meta{
+				background:#fff;
+				margin:0 0 20px;
+				height:624px;
+				.side_wrapper{
+					width:500px;
+					height:624px;
+					float:left;
+					background:#fff;
+					.car_wrapper{
+						padding:0 20px;
+						.cont_img{
+							padding:20px 0;
+							a{
+								position:relative;
+								z-index:999;
+								display:block;
+								border:1px solid #dfdfdf;
+								cursor:crosshair;
+								img{
+									width:458px;
+								}
+							}
+						}
+						.thumb_cont{
+							width:460px;
+							height:85px;
+							position:relative;
+							overflow:hidden;
+							.inner_cont{
+								width:340px;
+								height:85px;
+								margin: 0 auto;
+								.view_img{
+									height:85px;
+									li{
+										padding:6px;
+										border:2px solid #dfdfdf;
+										float:left;
+										margin:0 4px;
+										a{
+											display:block;
+										}
+									}
+								}
+							}
+						}
+						.mylove{
+							margin-top:3px;
+							a{
+								display:inline-block;
+								margin-left:44px;
+								height:22px;
+								line-height:22px;
+								padding: 0 12px;
+								&:hover{
+									color:#ff4965;
+								}
+							}
+						}
+					}
+				}
+				.main_wrapper{
+					width:548px;
+					margin-left:480px;
+					padding:25px;
+					.title{
+						h3{
+							font-weight:400;
+							color:#333;
+							font-size:20px;
+							line-height:1.2em;
+							padding-bottom:0.2em;
+							span{
+								margin-right:8px;
+								color:#FF5482;
+							}
+						}
+						p{
+							font-size:13px;
+							color:#754;
+							margin:0 0 8px;
+						}
+					}
+					.pic_info{
+						position:relative;
+						width:575px;
+						height:80px;
+						color:#fff;
+						border-top-left-radius:5px;
+						border-bottom-left-radius:5px;
+						background:#fe4a7a;
+						.nom_pic{
+							font-size:24px;
+							line-height:80px;
+							width:210px;
+							height:80px;
+							display:inline-block;
+							text-align:center;
+							em{
+								i{
+									font-size:55px;
+								}
+							}
+						}
+						.item{
+							font-size:13px;
+							position:relative;
+							top:-30px;
+							display:inline-block;
+							height:36px;
+							padding:0 18px;
+							text-align:center;
+							.through{
+								text-decoration:line-through;
+							}
+						}
+						.fy{
+							border-left:1px dashed #f989a7;
+							top:-10px;
+							span{
+								display:block;
+							}
+							strong{
+								display:block;
+								font-weight:400;			
+							}
+						}
+						.line_ect{
+							position:absolute;
+							top:0;
+							right:-5px;
+							width:5px;
+							height:88px;
+							padding:0;
+							background:url(http://b0.hucdn.com/img/tuan/price-info-line.png) no-repeat;
+						}
+					}
+					.sale{
+						padding:15px 0 0;
+						border:3px solid #eee;
+						border-top:0;
+						.attr{
+							margin:15px 0 15px 35px;
+							font-size:13px;
+							position:relative;
+							padding-left:90px;
+							color:#777;
+							label{
+								line-height:1.2em;
+								position:absolute;
+								left:0;
+								width:65px;
+								height:100%;
+								margin-left:10px;
+								padding-top:2px;
+								text-align:right;
+								color:#888;
+							}
+							.return_info{
+								display:block;
+								margin-top:6px;
+							}
+							.pro_info{
+								position:relative;
+								cursor:pointer;
+							}
+							.orange_tag{
+								background:#ff8135;
+								border:1px solid #e66315;
+								font-size:12px;
+								position:relative;
+								top:-1px;
+								padding: 0 5px;
+								color:#fff;
+								border-radius:2px;
+							}
+							.attr_values{
+								display:inline-block;
+								vertical-align:middle;
+								li{
+									line-height:20px;
+									position:relative;
+									float:left;
+									margin:0 4px 4px 0;
+									padding:1px;
+									vertical-align:middle;
+									background:#fff;
+									a{
+										font-family:sans-serif;
+										float:left;
+										min-width:10px;
+										text-align:center;
+										white-space:nowrap;
+										color:#000;
+										border:1px solid #b8b7bd;
+										background:#fff;
+										height:25px;
+										padding:2px 8px 2px 2px;
+										img{
+											width:25px;
+											height:25px;
+											display:inline-block;
+											border:0;
+										}
+										&:hover{
+											margin:-1px;
+											border:2px solid #fa0d66;
+										}
+									}
+									.color_active{
+										margin:-1px;
+										border:2px solid #fa0d66;
+									}
+									.thumb-box{
+										display:inline-block;
+									}
+									span{
+										position:relative;
+										padding-left:5px;
+										z-index:2;
+										vertical-align:top;
+										line-height:25px;
+									}
+								}
+								.red{
+									color:#ca3c3c;
+									line-height:32px;
+									margin-left:4px;
+								}
+							}
+							.deta_numb{
+								position:relative;
+								display:inline-block;
+								margin:0 5px 0 0;
+								vertical-align:middle;
+								.num_op{
+									width:20px;
+									cursor:default;
+									line-height:25px;
+									text-align:center;
+									vertical-align:top;
+									color:#999;
+									border:1px solid #ccc;
+									height:25px;
+									display:inline-block;
+									float:left;
+									font-size:16px;
+								}
+								.del_num{
+									border-right:0;
+									border-top-left-radius:3px;
+									border-bottom-left-radius:3px;
+									background:-webkit-gradient(linear,left top,left bottom,from(#e0e0e0),to(#f0f0f0));
+								}
+								.sum_num{
+									border-left:0;
+									border-top-right-radius:3px;
+									border-bottom-right-radius:3px;
+									background:-webkit-gradient(linear,left top,left bottom,from(#fff),to(#eee));
+								}
+								.shou{
+									cursor:pointer;
+								}
+								.view_BuyNum{
+									vertical-align:middle;
+									font-size:13px;
+									display:inline-block;
+									width:18px;
+									height:11px;
+									padding:7px 5px;
+									text-align:center;
+									background:#fff;
+									border-radius:0;
+									color:#777;
+									border:1px solid #ccc;
+									box-shadow:inset 0 1px 3px #ddd;
+									float:left;
+								}
+							}
+							.jian{
+								font-size:12px;
+								color:#aaa;
+								padding-left:10px;
+								display:none;
+							}
+						}
+						.ops{
+							margin:0 0 20px 0;
+							.ops_shop{
+								background:#ff4965;
+								margin:2px 0 0 124px;
+								font-size:18px;
+								position:relative;
+								display:inline-block;
+								width:140px;
+								height:48px;
+								line-height:48px;
+								text-align:center;
+								color:#fff;
+								border-radius:4px;
+								cursor:pointer;
+							}
+							.ops_phone{
+								width:138px;
+								height:46px;
+								line-height:46px;
+								color:#ff4965;
+								background:#fff;
+								border:1px solid red;
+								margin-left:20px;
+							}
+						}
+						.data{
+							height:60px;
+							line-height:60px;
+							margin: 0 15px;
+							color:#666;
+							border-top:1px dashed #ddd;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+/* !放大镜 */
+.zoomMask{
+	position:absolute;
+	width:229px;
+	height:229px;
+	background:url(http://b0.hucdn.com/img/item/mask.png) repeat scroll 0 0 transparent;
+	top:0px;
+	left:0px;
+ 	display:none;
+ }
+.zoomDiv{
+	width:400px;
+	height:400px;
+	border:1px solid #ccc;
+	overflow:hidden;
+	position:absolute;
+	top:49px;
+	left:484px;
+	display:none; 
+	z-index:999;
+}

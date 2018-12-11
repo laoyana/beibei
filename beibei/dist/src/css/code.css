@@ -1,0 +1,236 @@
+@charset "UTF-8";
+/* !商品订单 */
+.contentBox .content_code {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px;
+  box-shadow: 0 1px 2px #d1d1d1;
+  padding: 2px;
+}
+
+.contentBox .content_code .code_top {
+  height: 70px;
+  background: #fafafa;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #eee;
+  margin: 0 0 10px 0;
+  position: relative;
+}
+
+.contentBox .content_code .code_top h1 {
+  margin: 0 0 0 30px;
+  line-height: 70px;
+  color: #a7a7a7;
+  text-shadow: 0 -1px 0 #fff;
+  font-size: 2em;
+  font-weight: 900;
+}
+
+.contentBox .content_code .code_top i {
+  position: absolute;
+  right: 30px;
+  top: 0;
+  background: url(http://b0.hucdn.com/img/trade/cart_merge.png) no-repeat 500px 500px;
+  width: 340px;
+  height: 70px;
+  display: inline-block;
+  background-position: 0 -88px;
+}
+
+.contentBox .content_code .code_center {
+  padding: 20px;
+  position: relative;
+}
+
+.contentBox .content_code .code_center .active_form .ac_tab {
+  width: 100%;
+  border: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border-top: 1px solid #ddd;
+}
+
+.contentBox .content_code .code_center .active_form .ac_tab .ac_th {
+  background: #f3f3f3;
+  color: #555;
+  text-align: left;
+}
+
+.contentBox .content_code .code_center .active_form .ac_tab .ac_th th {
+  padding: 6px 12px;
+}
+
+.contentBox .content_code .code_center .active_form .ac_tab .ac_th .th1 {
+  width: 60px;
+}
+
+.contentBox .content_code .code_center .active_form .ac_tab .ac_th .th2 {
+  width: 280px;
+}
+
+.contentBox .content_code .code_center .active_form .ac_tab .ac_th .th3 {
+  width: 140px;
+}
+
+.contentBox .content_code .code_center .active_form .ac_tab .ac_th .th6 {
+  width: 100px;
+  text-align: right;
+}
+
+.contentBox .content_code .code_center .active_form .ac_tab .ac_th .th7 {
+  width: 50px;
+}
+
+.contentBox .content_code .code_center .active_form .ac_tab .ac_tb {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+}
+
+.contentBox .content_code .code_center .active_form .ac_tab .ac_tb .tb_code {
+  margin-top: 15px;
+  padding: 10px;
+  border: 1px solid #eee;
+}
+
+.contentBox .content_code .code_center .active_form .ac_tab .ac_tb .tb_code td {
+  text-align: center;
+}
+
+.contentBox .content_code .code_center .active_form .ac_tab .ac_tb .tb_code .td_code2 a img {
+  display: inline-block;
+  border: 0;
+  vertical-align: middle;
+}
+
+.contentBox .content_code .code_center .active_form .ac_tab .ac_tb .tb_code .td_code2 .code2_a {
+  display: inline-block;
+  vertical-align: middle;
+  width: 170px;
+}
+
+.contentBox .content_code .code_center .active_form .ac_tab .ac_tb .tb_code .td_code5 .deta_numb {
+  position: relative;
+  display: inline-block;
+  margin: 0 5px 0 0;
+  vertical-align: middle;
+}
+
+.contentBox .content_code .code_center .active_form .ac_tab .ac_tb .tb_code .td_code5 .deta_numb .num_op {
+  width: 20px;
+  cursor: default;
+  line-height: 25px;
+  text-align: center;
+  vertical-align: top;
+  color: #999;
+  border: 1px solid #ccc;
+  height: 25px;
+  display: inline-block;
+  float: left;
+  font-size: 16px;
+}
+
+.contentBox .content_code .code_center .active_form .ac_tab .ac_tb .tb_code .td_code5 .deta_numb .del_num {
+  border-right: 0;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e0e0e0), to(#f0f0f0));
+}
+
+.contentBox .content_code .code_center .active_form .ac_tab .ac_tb .tb_code .td_code5 .deta_numb .sum_num {
+  border-left: 0;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+}
+
+.contentBox .content_code .code_center .active_form .ac_tab .ac_tb .tb_code .td_code5 .deta_numb .shou {
+  cursor: pointer;
+}
+
+.contentBox .content_code .code_center .active_form .ac_tab .ac_tb .tb_code .td_code5 .deta_numb .view_BuyNum {
+  vertical-align: middle;
+  font-size: 13px;
+  display: inline-block;
+  width: 18px;
+  height: 11px;
+  padding: 7px 5px;
+  text-align: center;
+  background: #fff;
+  border-radius: 0;
+  color: #777;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 3px #ddd;
+  float: left;
+}
+
+.contentBox .content_code .code_center .active_form .ac_tip {
+  border: 1px solid #eee;
+  padding: 15px 12px;
+  background: #fafafa;
+  margin-top: 15px;
+}
+
+.contentBox .content_code .code_center .active_form .ac_tip img {
+  display: inline-block;
+  vertical-align: middle;
+  border: 0;
+}
+
+.contentBox .content_code .code_center .active_form .ac_tip span {
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.contentBox .content_code .code_center .active_form .ac_code {
+  padding-left: 25px;
+  border: 1px solid #eee;
+  background: #f3f3f3;
+  margin-top: 15px;
+  width: 911px;
+}
+
+.contentBox .content_code .code_center .active_form .ac_code .view_tota {
+  height: 61px;
+  line-height: 61px;
+}
+
+.contentBox .content_code .code_center .active_form .ac_code .view_tota .code_left {
+  display: inline-block;
+}
+
+.contentBox .content_code .code_center .active_form .ac_code .view_tota .code_left a {
+  margin-left: 15px;
+  text-decoration: underline;
+}
+
+.contentBox .content_code .code_center .active_form .ac_code .view_tota .code_middle {
+  display: inline-block;
+  margin-left: 380px;
+}
+
+.contentBox .content_code .code_center .active_form .ac_code .view_tota .code_middle .code_sp1 {
+  color: #ca3c3c;
+}
+
+.contentBox .content_code .code_center .active_form .ac_code .view_tota .code_middle .code_sp2 {
+  font-size: 26px;
+  color: #ff4975;
+  margin: 0 5px;
+}
+
+.contentBox .content_code .code_center .active_form .ac_code .view_tota .a_code {
+  display: block;
+  float: right;
+  font-size: 14px;
+  background: #ff5482;
+  border-radius: 5px;
+  color: #fff;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin: 10px 15px 0;
+}
